@@ -2,15 +2,26 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.item{
+  display: flex;
+  float: left;
+  gap: 60px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.cart-image img{
+  width: 100px;
+  height: 100px;
+}
+.cart-wrapper img{
+  width: 80px;
+  height: 40px;
+}
+.cart-button , .cart-qty{
+margin-left: 40px;
+}
+.cart-button button{
+ box-shadow: inset;
+  background-color: red;
+  color: #fff;
 }
 
 .App-header {
